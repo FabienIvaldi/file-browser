@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+    font-family:sans-serif;
+   
+}
+.arrow{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-style:none;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 107);
+}
+td {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size: 0.7em;
+}
+
+.listes {
+    display: flex;
+    justify-content: center;
+ 
+}
+.explorer {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    border-style: solid;
+   
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.path {
+    min-width: 60em;
+}
